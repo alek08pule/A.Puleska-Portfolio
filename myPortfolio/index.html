@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>A.P.-portfolio</title>
+    <link rel="stylesheet" href="../myPortfolio/css/style.css" />
+    <link rel="stylesheet" href="../myPortfolio/css/mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">A.Puleska</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">A.Puleska</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img
+          src="../myPortfolio/assets/A.P. profile photo.jpg"
+          alt="A.P. profile picture"
+        />
+      </div>
+      <div class="section_text">
+        <h1 class="title">Aleksandra Puleska</h1>
+        <p class="section_text_p">Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1"
+            onclick="window.open('../myPortfolio/assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="../myPortfolio/assets/linkedin.png"
+            alt="my LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com'"
+            target="_blank"
+          />
+          <img
+            src="../myPortfolio/assets/github.png"
+            alt="my github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+            target="_blank"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">More...</p>
+      <h1 class="title">About Me</h1>
+      <div class="section_container">
+        <div class="about-details-container">
+          <div class="details-container">
+            <div class="sub-title">
+              <img
+                src="../myPortfolio/assets/education.svg"
+                alt="Education"
+                class="icon"
+              />
+              <h3>Education</h3>
+            </div>
+            <p>Natural-mathematical gymnasium</p>
+          </div>
+          <div class="details-container">
+            <div class="sub-title">
+              <img
+                src="../myPortfolio/assets/courses.svg"
+                alt="Courses"
+                class="icon"
+              />
+              <h3>Courses</h3>
+            </div>
+            <p>SEDC Academy - Web Developer</p>
+            <p>
+              YOUTH WORKSHOP FOR FUTURE VISUAL DESIGNERS VOL.2-Course for
+              Graphic Design
+            </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hey! I'm Alex, a passionate junior web developer with a knack for
+            creating user-friendly websites. I fell in love with web
+            development's blend of creativity and problem-solving, and I'm
+            committed to crafting engaging digital experiences.<br /><br />
+            During my studies and personal projects, I've learned the value of
+            collaboration and teamwork. Working with diverse teams has taught me
+            the importance of effective communication and understanding
+            different perspectives to deliver successful projects.<br /><br />
+            Outside of coding, you can find me exploring the outdoors, or
+            reading a book.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="project-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div class="img-title">
+                <img
+                  src="../myPortfolio/assets/Taxi_app01.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+                <h2 class="experience-sub-title project-title">Taxi</h2>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="window.open('https://www.figma.com/proto/Vla3N4EiAOvDsX32aENtKy/taxi?page-id=0%3A1&type=design&node-id=2-23&viewport=458%2C112%2C0.32&t=DqmN3k2Ci1Uf6QFb-1&scaling=scale-down&starting-point-node-id=2%3A2&mode=design', '_blank');"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div class="img-title">
+                <img
+                  src="../myPortfolio/assets/News.jpg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+                <h3 class="experience-sub-title project-title">
+                  News Aggregator
+                </h3>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="window.open('https://www.figma.com/proto/NvPwJlXPRSsbfW3qKCs3ba/Tech-News?type=design&node-id=1-2&t=CANOowfGQkqlCFIs-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design');"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div class="img-title">
+                <img
+                  src="../myPortfolio/assets/Wallet-homePage.jpg"
+                  alt="Project 3"
+                  class="project-img"
+                />
+                <h3 class="experience-sub-title project-title">My Wallet</h3>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="location.href='https://github.com/alek08pule/My_Wallet.git'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="../myPortfolio/assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="mailto:aleksandra.puleska@gmail.com"
+              >aleksandra.puleska@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="../myPortfolio/assets/linkedin.png"
+            alt="Linkedin icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">Linkedin</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="../myPortfolio/script.js"></script>
+  </body>
+</html>
