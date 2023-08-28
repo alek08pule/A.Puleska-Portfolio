@@ -32,11 +32,11 @@ Navigate through the app to view my Figma designs and projects.
 
 ## Figma Designs
 
-I used the Figma to design a reference for layout and styling in my apps.
+I used Figma to design a reference for layout and styling in my apps.
 
 
 ## Credits
 
-- Project inspiration from my Wixsite.com/my-site  portfolio.
+- Project inspiration from my wixsite.com/my-site  portfolio.
 
 
